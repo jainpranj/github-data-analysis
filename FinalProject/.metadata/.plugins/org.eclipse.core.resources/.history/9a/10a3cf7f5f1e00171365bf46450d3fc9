@@ -1,0 +1,66 @@
+package com.github.sentimentalanalysis;
+
+import java.io.IOException;
+import java.util.HashMap;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class GithubSentimentalAnlysisMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+	public static String angerWordsRegex;
+	public static String joyWordsRegex;
+	public static String amusementWordsRegex;
+	public static String surpriseWordsRegex;
+	public static String testbugsWordsRegex;
+	public static String swearingWordsRegex;
+	public static HashMap<String, String> emotionRegexMap = new HashMap<String, String>();
+	public IntWritable one = new IntWritable(1);
+	public static final String[] listOfEmotions = { "Anger", "Joy", "Amusement", "Surpise", "Issue/Bugs", "Swearing" };
+
+	protected void setup(Context context) throws IOException, InterruptedException {
+		// anger
+		angerWordsRegex = "(?i).*\\b(a+rgh|angry|annoyed|annoying|appalled|bitter|cranky|hate|hating|mad)\\b.*";
+		emotionRegexMap.put(listOfEmotions[0], angerWordsRegex);
+		// joy
+		joyWordsRegex = "(?i).*\\b(yes|yay|hallelujah|hurray|bingo|amused|cheerful|excited|glad|proud)\\b.*";
+		emotionRegexMap.put(listOfEmotions[1], joyWordsRegex);
+
+		// amusement
+		amusementWordsRegex = "(?i).*\\b(ha(ha)+|he(he)+|lol|rofl|lmfao|lulz|lolz|rotfl|lawl|hilarious)\\b.*";
+		emotionRegexMap.put(listOfEmotions[2], amusementWordsRegex);
+
+		// surprise
+		surpriseWordsRegex = "(?i).*\\b(yikes|gosh|baffled|stumped|surprised|shocked)\\b.*";
+		emotionRegexMap.put(listOfEmotions[3], surpriseWordsRegex);
+
+		// swearing
+		testbugsWordsRegex = "(?i).*\\b(bug|fix|issue)|corrected\\b.*";
+		emotionRegexMap.put(listOfEmotions[4], testbugsWordsRegex);
+
+		// issue-bugs
+		swearingWordsRegex = "(?i).*\\b(wtf|wth|omfg|hell|ass|bitch|bullshit|bloody|fucking?|shit+y?|crap+y?)\\b|\\b(fuck|damn|piss|screw|suck)e?d?\\b.*";
+		emotionRegexMap.put(listOfEmotions[5], swearingWordsRegex);
+
+	}
+
+	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+		if (key.get() > 0) {
+			// String tokens[]=value.toString().substring(0,
+			// value.toString().lastIndexOf(','));
+			String commitMessage = value.toString().substring(0, value.toString().lastIndexOf(','));
+			String language = value.toString().substring(value.toString().lastIndexOf(',') + 1);
+			
+				if (commitMessage.matches(emotionRegexMap.get("Anger"))) {
+					context.write(new Text(language), one);
+				}
+			}
+
+		}
+
+	protected void cleanup(Context context) throws IOException, InterruptedException {
+
+	}
+
+}

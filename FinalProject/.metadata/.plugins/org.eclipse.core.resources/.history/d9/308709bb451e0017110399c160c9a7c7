@@ -1,0 +1,11 @@
+package com.github.sentimentalanalysis;
+
+public class RegexTestStrings {
+        public static final String EXAMPLE_TEST = "remove caveat section, "
+        		+ "       I will write it later when I know what it is and can articulate without being bitter";
+public static final String regex="([^\r]+\r[^\r])+(?i)\\b(a+rgh|angry|annoyed|annoying|appalled|bitter|cranky|hate|hating|mad)\\b";
+        public static void main(String[] args) {
+                System.out.println(EXAMPLE_TEST.matches(regex));
+    
+        }
+}

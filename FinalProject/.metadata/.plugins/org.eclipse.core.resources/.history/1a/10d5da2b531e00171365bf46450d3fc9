@@ -1,0 +1,164 @@
+$item	1
+ActionScript	29
+Arduino	1
+Assembly	1
+AutoHotkey	1
+C	83
+C#	13
+C++	57
+Cakefile sucks for just shelling out a command"	1
+CoffeeScript	8
+Coq	1
+CraftProxyLite and CraftProxyLiter all belong to @raphfrk . You can view the fulle license in the LICENSE file."	1
+D	6
+DCPU-16 ASM	1
+Emacs Lisp	29
+Erlang	1
+FORTRAN	1
+Go	3
+Groovy	2
+HaXe	1
+Haskell	9
+I can't take it anymore."	1
+I did that. Sorry."	1
+I fixed this before committing the previous commit	1
+I thought the first reversion didn't work. This reverts commit b76ffe8e16efab9a4cbc01c9e342f926c65efb77."	1
+I'm awesome. I like eating pie	1
+Java	193
+JavaScript	151
+Lua	2
+Matlab	2
+MySQL? Why?"	1
+Nemerle	1
+Objective-C	19
+PHP	56
+Perl	13
+Prolog	2
+Puppet	3
+Python	102
+R	1
+Racket	1
+Ruby	101
+Scala	4
+Shell	43
+Sound Panel Change Change-Id: Iad89a0c49288094e21824aa9c9e1bf98c29cfec3 Conflicts: core/java/android/provider/Settings.java packages/SettingsProvider/src/com/android/providers/settings/DatabaseHelper.java"	1
+Sound Panel Change http://review.cyanogenmod.com/14722 Change-Id: I1113d62a5d99a1fe59f3c14362371af24d10b549 Conflicts: res/values/strings.xml res/xml/sound_settings.xml src/com/android/settings/SoundSettings.java"	2
+Spout's auto-updating was removed (didn't work right) as well as cleaned up config. Signed-off-by: Chris Sanders <NinjaZidane@hotmail.com>"	1
+Standard ML	2
+Tcl	1
+VHDL	2
+Vala is not like LaTeX	1
+Verilog	2
+VimL	54
+a clear win. Signed-off-by: Krzysztof Wilczynski <krzysztof.wilczynski@linux.com>"	1
+actually"	1
+added irc for rails-contrib and chromium."	1
+added some html5 apis: offline	2
+added useful comments =)"	1
+allowing multiple SLs to be configured at one time. Signed-off-by: Albert Chu <chu11@llnl.gov> Signed-off-by: Ira Weiny <weiny2@llnl.gov>"	1
+also Capitol P ;) and Removed a redundant menu div"	1
+always stupid mistakes"	1
+an annoying promp ""delete this buffer even if there is a process attached to it? y/n""	1
+and *4*LDs!!!)"	1
+and ES version 0.17.0-1 (except not quite - with local patches and cherry picks from master)"	1
+and basically leveled up! :O Time to continue working."	1
+and because you have to send Content-Length: 0."	1
+and push it there"	1
+and remove confusing default-resources folder that wasn't even being used anyway."	1
+and to consolidate to a single spring jar naming convention	1
+and will not apply to already created db config. Thus	1
+and writing in 2nd person"	1
+as opposed to the AITHREADSAFE* macro's."	1
+as the overhead a developer would incur is equal to the overhead that the sampb functions incurred	1
+because you can't call NSObject methods on it"	1
+bing fetcher classes didn't get added"	1
+bro"	1
+but I renamed the sources directory."	1
+but I was actually pleased by how much they had in common."	1
+but I'll deal with that later."	1
+but I'm still searching for js assets management system."	1
+but fixing things slowly... and now going to write my paper and study for the final REally"	1
+but it is going to be the way it until I find time to come back to this."	1
+but pin-pointed: resizing ~200 icons is a bit too much for pychan - gui Plugins can now use auto-alignment functionality from the ToolBar class - small design fix in LayerTool - small fix for MapFileHistory - editor now doesn't load the same mapfile twice (gives feedback in the statusbar) related to [t:686] git-svn-id: http://fife.svn.cvsdude.com/engine/trunk@3909 33b003aa-7bff-0310-803a-e67f0ece8222"	1
+but since it's a only for a deprecated version of the WebSockets protocol	1
+but the automatic changes are just annoying."	2
+but the code is more clear"	1
+but they seem to work here well enough.. maybe in the future	1
+but this change is not intended to diminish or modify the content or intent of the copyright. I'm not trying to change the meaning (and I don't think I did) This change is intended only to make real warnings and errors easier to spot when compiling and to diminish noise errors like this that are caused by encoding problems."	1
+callback"	1
+casual trouble makers"	1
+cheers"	1
+cluster not working	1
+commited wrong stuff..."	1
+confusing	1
+dave."	1
+e.g.: - where an image is moved so that it is next in line to be displayed example: images a b d f g d -> c: a b c f g ==> navigating backwards will show the same image twice a b d f g d -> e: a b e f g ==> navigating forwards will show the same image twice - where an image is at the start or end of a folder --- annoying wraparound bugs"	1
+etc."	1
+even if we had already worked on svn/git on *nix."	1
+fade removed"	1
+filled out InjectDetails pane more	1
+fixed segfaults"	1
+hate on regex. Nope	1
+header tags	1
+here is NoLifeWz working with .NET Not as fast as I'd like	1
+here lie the dependencies for SDL_ttf which is needed for text/fonts"	1
+how do you execute the event?) Signed-off-by: Robert Xu <robxu9@gmail.com>"	1
+it is 2012	1
+it searches from those folders instead of from the root of the project which is pretty much always more useful."	1
+it should be removed. Introduced by commit d2b463135f84 (""init/calibrate.c: fix for critical bogoMIPS intermittent calculation failure""). Signed-off-by: Borislav Petkov <borislav.petkov@amd.com> Cc: Andrew Worsley <amworsley@gmail.com> Cc: Phil Carmody <ext-phil.2.carmody@nokia.com> Cc: Peter Zijlstra <peterz@infradead.org> Signed-off-by: Andrew Morton <akpm@linux-foundation.org> Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"	1
+jruby fails building redcarpet gem	1
+last go	1
+let Solarized handle the background..."	1
+mad på 45 minutter	1
+mailer"	1
+make light less pink :P"	1
+minified css and javascript	1
+misread task 6A	1
+missed a spot	1
+new chrome bug"	1
+now O:-)"	2
+or do away with it completely -- do we really save *that* much time by allowing people not to type it at certain times?!?"	1
+readme spacing."	1
+remove pdb!"	1
+removed everything from top-level file."	1
+see * https://www.midnight-commander.org/ticket/2784 * https://www.midnight-commander.org/ticket/2785 * https://www.midnight-commander.org/ticket/2787 for more details git-svn-id: file:///var/svn/freetz/trunk@8954 149334a1-2f27-0410-a3b9-fc62619ac1e6"	1
+setuptools for setup.py and some cleaning"	1
+should have pulled first"	1
+should work now"	1
+shouldn't have. Moved HTTP class to appropriate file. Updated .gitignore."	1
+signed Manifest commit with key C0174749)"	2
+small Notice error."	1
+smart. gj guys lol. this is the one time where you CANT rely on feature-probing but *HAVE* to break everything you know about JS and provide features based on browser/version. these guys can mess anything up."	1
+so I'm taking a break."	1
+so our html's are more dynamic without the need to include the entire contents of everything	1
+so revert to a clean commit and add the changes gradually."	1
+so that you don't end up sampling colors just off the color."	1
+so this is a better match."	1
+so this isn't ideal either."	1
+so this should be OK. Even these are even still used?"	1
+so we'll go with a CSS3 solution that still looks nice in < IE9"	1
+spelling"	1
+such as content being cut off and flickering"	1
+that is good but what if he hadn't had daughters?"" -- Elizabeth G. http://geekfeminism.org/2012/04/02/cookie-of-the-week-chad-whitacre-whit537-came-up-with-a-better-name/"	1
+the energy calculations were fine	1
+the joy of developing a cross-platform application..."	1
+the message will be logged at TRACE level. Reviewed-By: Kelven"	5
+the reason being that functions from the CL package are deprecated in some way at RMS's hand. At any rate	1
+they make me cry and my programs fail"	1
+thx."	1
+tried using difflib just to play around but it is being problematic. Still	1
+try again"	1
+trying again"	1
+turns out that wasn't the real issue."	1
+typos."	1
+unchecking the taxable flag for that item didn't remove the tax related columns from the invoice where there are no other taxable items. git-svn-id: svn+ssh://svn.gnucash.org/repo/gnucash/trunk@22141 57a11ea4-9604-0410-9ed3-97b8803252fd"	1
+unify tags"	1
+we allow connections to ipc only after the main engine is operational and configured (and after the first totem transition). Signed-off-by: Fabio M. Di Nitto <fdinitto@redhat.com> Reviewed-by: Angus Salkeld <asalkeld@redhat.com>"	1
+we can run -v audio --loglevel debug and see what the buffering is actually doing."	2
+we never release this before"	1
+we were passing them the other way around. With this one can run (for example): clang -o foo foo.c -O4 -Wl	5
+which we don't use anyway"	2
+wrong version"	1
+yes-yes?"	1
+yo"	1
+you finally see it. Talk about needle in a hay stack. It works now! ;)"	1

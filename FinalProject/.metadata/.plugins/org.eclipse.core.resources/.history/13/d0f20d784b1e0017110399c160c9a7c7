@@ -1,0 +1,38 @@
+package com.github.sentimentalanalysis;
+
+import java.io.IOException;
+import java.util.Map.Entry;
+
+import org.apache.hadoop.io.FloatWritable;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.SortedMapWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.Writable;
+import org.apache.hadoop.io.WritableComparable;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class STDAndMedianCombiner extends Reducer<Text, SortedMapWritable, Text, SortedMapWritable> {
+
+	public void reduce(Text key, Iterable<SortedMapWritable> values, Context context)
+			throws IOException, InterruptedException {
+		SortedMapWritable tempMap = new SortedMapWritable();
+
+		for (SortedMapWritable value : values) {
+			for (Entry<WritableComparable, Writable> ratingEntry : value.entrySet()) {
+				FloatWritable rating = (FloatWritable) ratingEntry.getKey();
+				IntWritable count=(IntWritable) tempMap.get(rating);
+				//IntWritable ratingCount = (IntWritable) ratingEntry.getValue();
+				if (count==null) {
+
+					tempMap.put(rating, (IntWritable) ratingEntry.getValue());
+				} else {
+				count.set((count.get()+((IntWritable)ratingEntry.getValue()).get()));
+				tempMap.put(rating,count);
+				}
+			}
+			value.clear();
+		}
+
+		context.write(key, tempMap);
+	}
+}

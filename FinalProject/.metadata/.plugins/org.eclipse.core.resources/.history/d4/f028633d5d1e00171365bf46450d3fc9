@@ -1,0 +1,65 @@
+package com.github.sentimentalanalysis;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+import org.apache.hadoop.io.Writable;
+import org.apache.hadoop.io.WritableComparable;
+import org.apache.hadoop.io.WritableUtils;
+
+public class CompositeKeyWritable implements Writable {
+
+	private String language;
+	private String emotion;
+
+	public CompositeKeyWritable() {
+	}
+
+	public CompositeKeyWritable(String language, String emotion) {
+		this.language = language;
+		this.emotion = emotion;
+	}
+
+	@Override
+	public String toString() {
+		return (new StringBuilder().append(language).append("\t").append(emotion)).toString();
+	}
+
+	public void readFields(DataInput dataInput) throws IOException {
+		language = WritableUtils.readString(dataInput);
+		emotion = WritableUtils.readString(dataInput);
+	}
+
+	public void write(DataOutput dataOutput) throws IOException {
+		WritableUtils.writeString(dataOutput, language);
+		WritableUtils.writeString(dataOutput, emotion);
+	}
+
+
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
+	}
+
+	public String getEmotion() {
+		return emotion;
+	}
+
+	public void setEmotion(String emotion) {
+		this.emotion = emotion;
+	}
+
+
+	public int compareTo(CompositeKeyWritable objKeyPair) {
+
+		int result = getLanguage().compareTo(objKeyPair.getLanguage());
+
+		return result;
+	}
+
+
+}

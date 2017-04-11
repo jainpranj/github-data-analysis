@@ -1,0 +1,1001 @@
+payload_commit_msg,repository_language
+Agregando disclaimer,Python
+Tweaks! Check map presence in autolabor and fastdwarf onupdate() functions Game state tracking in kittens plugin now respects on/off switch,C++
+Removing tutorials and examples from docs.,JavaScript
+added gears for options and made notegroup edit page nicer,JavaScript
+Improve the README file,Ruby
+HBASE-4280 [replication] ReplicationSink can deadlock itself via handlers git-svn-id: https://svn.apache.org/repos/asf/hbase/branches/0.92@1175061 13f79535-47bb-0310-9956-ffa450edef68,Java
+We have now our login/registration page (with some css bugs). Messaging is almost operational.,JavaScript
+added hasElasticEdges to Scroller. fixed velocity with stopScrolling().,ActionScript
+Merge branches 'py-correction' and 'noremap',Python
+remove post (03-29-newpost.md),Ruby
+"Add config migration and model, plus schema changes.",Ruby
+same,Python
+modify _config.yal,Ruby
+MyBBS: comment.,Java
+added copy phrase action; added length-of-phrase-definition action; made colons optional as intended,Perl
+Finalized position of foreman_env_files,Ruby
+Added link to the jQuery widget todo demo,JavaScript
+Check for a separate grub2 partition.,Python
+Modulize schedule built process,C#
+vector2,Ruby
+Add an early check for data.pak so that we won't create arx.log and cfg.ini in the wrong locations.,C++
+Falconrunners progress,Java
+updated precomp and ipc defines,Scheme
+"Basic EM2860 support. It's pretty much just a raw dump of the capture log, not cleaned up/simplified at all, but it works.",Objective-C
+cambios 2,Java
+master: Added placeholder victory image.,ActionScript
+Renamed t() to cue().,Python
+Remove formidable's stylesheet by default,PHP
+Merge pull request #9 from rmenor/master Algunos arreglos en,Shell
+added link to wiki,Python
+"Add test for ""today"" operator.",Python
+Updated MPRIS plug-in code. Added files for the future implementing of the MPRIS D-Bus wrapping. A bit of singleton locking of D-Bus implementing code.,C++
+Log screen center clock and all text adjustsments,Java
+calling writeRounds instead of writeSettings,Java
+Moving the mountedgrub decorator.,Python
+Changed the min number of players to 2 for development purposes.,JavaScript
+updated chapters pg,JavaScript
+A few more extra bits.,C#
+"Improvements to the Preferences UI * If 'scrobble' is unchecked, nested boxes are disabled * Same for 'growl'",Objective-C
+Merge branch 'master' of https://github.com/mcgrue/demon_door,C#
+Renamed Oh-My-ZSH to 'DOTS' :) - renamed to dots in my zshrc - moved everything in lib to lib/dots - moved oh-my-zsh.sh bootstrap to lib/dots.sh - removed old zshrc template,Shell
+little change,Shell
+1st edit config edit 6 lines,Ruby
+customized mode line,Shell
+Trans: Update Contacts/Address,PHP
+No point in typing out edit notes for this edit.,Common Lisp
+cleans,Clojure
+fixed indent and tab to space.,C++
+fix serveral bugs,Python
+adding dojox dependency in package.json,JavaScript
+Update notes for submitted changes * Support sql_connection_debug to get SQL diagnostic information,Python
+"Merge ""Support sql_connection_debug to get SQL diagnostic information"" into milestone-proposed",Python
+commit from IntelliJ,Java
+add readme files whick contains instructions to run DAIKON,Java
+update,C
+Should contain most of the deliverables.,C#
+Merge remote-tracking branches 'springside/master' and 'origin/master',Java
+content from namespace,PHP
+Use unicode messages for CLIErrors,Python
+filter detected binary plugins by classpath now that plugin class loader is shared. fixes #412,Scala
+updated chapters pg,JavaScript
+So AppHarbor isn't the clearest about how to connect to Raven,JavaScript
+Update submodules,VimL
+added a last page viewed thingy but could use a refactor,Ruby
+autoformat eeg-mouse-stm32f4.c,C
+rotation in skillshots/smartcast,ActionScript
+fix link handler to use currentTarget,JavaScript
+Moving to better package name.,Java
+"Finish user edit, update, index, and destroy actions",Ruby
+Updating the grub2 module to depend on FSTab.,Python
+Draw Clefs and Notes. Still need to draw notes from the Array,Objective-C
+update gemfile 4th time,Ruby
+Update res/values/colors.xml,Java
+"need to + str(message) instead of mistake ,",Python
+"removed ready and resize specific handling, will make them jquery special events",JavaScript
+added USer and microposts,Ruby
+Implement local server and modify error message - close #18,Objective-C
+Added a MeshLoader class to load meshes. Fixed a bug in BasicViewportAction.h Changed main.cpp to build a mesh from a .mesh file created in blender.,C++
+added .sqliterc,VimL
+Add vim-surround plugin,VimL
+Correcting string/integer type mixup,JavaScript
+basic transcript nav,JavaScript
+Added resources User and Micropost Basic functionality established,Ruby
+Merge branch 'ics' of github.com:teamgummy/android_device_motorola_droid2we into ics,Shell
+night 2 finish,Lua
+Face and Cube classes.,C++
+Introduzione all influenza,Matlab
+1,PHP
+update README file,Java
+adding .gitignore,Python
+more KV::Command tests,Ruby
+Fixing src files,Java
+Added sun rays,JavaScript
+Updating the system module to include FSTab.,Python
+Fixed bug that would cause explosion when calling for autocomplete tags when the last facet was not a tag facet.,Ruby
+use guard,VimL
+"User model with passwords, and user show page",Ruby
+updated chapters pg,JavaScript
+added default .gitignore,VimL
+"Correct installation instructions The app is also dependent on Heroku's toolbelt, so mention that in the docs.",JavaScript
+Merge remote-tracking branch 'vg4/master',Java
+Update project,Lua
+Merged upstream master into my master,JavaScript
+"Added STAT, CANCEL and EXT command.",Ruby
+Merge pull request #13 from travp624/774d2282b4eb433ac211086b802cda709192af4f 4.0.4_r1.1 merge,Java
+Maybe? Who knows...,Java
+Myersの実装,Java
+"Changed all Latitude to Longitude and vice versa, original coder was confused between the two.",Java
+Find the best match and reduce the minimum match length,Ruby
+Displaying file source using import and inspect,Python
+Prepared branch for pull request.,Ruby
+Site updated at 2012-04-01 01:53:37 UTC,JavaScript
+guard + spork,Ruby
+score system added,Ruby
+Merge pull request #14 from travp624/test merge test into master,Java
+billing changes,JavaScript
+use my forked extensions,Ruby
+Debug code,Ruby
+updated chapters pg,JavaScript
+adding sql script file for data population,Java
+removed binaries,Java
+创建基本的窗口和基本的布局,Java
+"Changed all Latitude to Longitude and vice versa, original coder was confused between the two.",Java
+Merge branch 'master' of github.com:johnoliverdriscoll/recitivism,JavaScript
+Make init follow symlinks,Shell
+Fixed some ecaping issues in the shoutbox,Python
+singles flow working,Java
+Don't combine scores if the total score is 0,JavaScript
+first working usage of references,Clojure
+Don't load application initializers during asset precompilation.,Ruby
+Don't load application initializers during asset precompilation.,Ruby
+Fixed the Player Protection issues.,Java
+fixes to make it work,Java
+script fix,Visual Basic
+add direct memory operation,Java
+use ip,Objective-C
+(Libsnes) Use audio batch callback if available,C++
+v1.6.0,JavaScript
+level building,ActionScript
+pushed to source branch,JavaScript
+Merge branch 'master' of github.com:jupiterjs/canjs,JavaScript
+Site updated at Sun Apr 01 01:54:41 UTC 2012,JavaScript
+major cleanup!!!,Ruby
+Adding mapping with Leaflet,JavaScript
+Fix lock cleanup issue for jobs,Python
+added support for VEP. use -t to choose func annotation tool,Python
+Fixed some ecaping issues in the shoutbox,Python
+conflict resolution,C#
+Changes in wording,Objective-C
+commented out forms on bottom,Python
+Whoop,PHP
+made thumbnails be uploadable!,Ruby
+Added post about Word 12 years ago and what it's done to me,Ruby
+cpanel,JavaScript
+updated chapters pg,JavaScript
+Merge branch 'master' of github.com:russellporter/WhyJustRun Conflicts: app/Controller/EventsController.php app/Controller/MapsController.php app/Controller/PagesController.php app/View/Elements/Events/box.ctp app/View/Elements/Events/info.ctp,PHP
+Updates to indexing routine to bypass shell script / bash file and use straight java for improved maintenance Alow overrides of default translation maps and shell scripts for improved customization without cpying everything Remove unused files Utilize standard VuFind tables for Alphabetic browse for improved performance and flexibility,PHP
+Use of template engine,Python
+fixed off-by-one error,JavaScript
+Removed print statement,Python
+added iframe support,JavaScript
+updated chapters pg,JavaScript
+- adding btn-primary and icon-white classes for New/Save buttons - TODO: improve this logic Signed-off-by: Kyle Ledbetter <kyle@kyleledbetter.com>,PHP
+Added dynamic time functionality.. try dev.tigerapps.org/x/ where x is a number,JavaScript
+another small optimization in subAndCount (saves 40%) Tested everything on bingley.,C++
+画面遷移実装/キャラクター作成をウィザードで行える,JavaScript
+a,Java
+Updating FSTab calls to first instantiate.,Python
+Spawn actors from any eligible faction,Haskell
+Add factions as content,Haskell
+more testing of performance,Ruby
+delete,JavaScript
+update,VimL
+Last ones for today...,Java
+Rename integer to constant.numeric. See #29,JavaScript
+"modified sql script, added new models and view templates",PHP
+"- Fixed transparency in DefineBitsJPEG3 - Ignore the ""Protect"" tag instead of throwing an error - Added support for Blur, Glow and Drop Shadow filters - Added parsing for all other filters (currently ignored for NME compatibility) - Added filters support for Buttons - Fix for static text alignment - Fix to prevent duplication of instance names",HaXe
+Added: Initial import of ezakismet project sources for eZ Publish 4.x Compatible akismet extension By Contactivity and Sebastiaan van der Vliet,PHP
+"added license information, top groundplane, minor routing cleanups",VHDL
+updated chapters pg,JavaScript
+implement maxBitRate for stream.view - close #36,Objective-C
+declare some AggrTypeDescriptor member functions const,C++
+Updating paginate demo defaults,JavaScript
+Use display names rather than raw field values where appropriate. Also removed debugging output that I forgot about,Python
+- support for text template style,Go
+april fools day!,Python
+Forgot to add the KeyListener tick,Java
+fixed scraper and CSV,Python
+Needed to quote the package if the version number is included. modified: init.pp,Puppet
+sprint 1 complete. Added workout subtype.,Ruby
+开始添加函数支持,Objective-C
+Updating canjs reference,JavaScript
+updated chapters pg,JavaScript
+Update wsgi/local.py path in .gitignore,Python
+Use Shortforms.,Java
+fix reading information method for vbox 4.1,Ruby
+www-client/chromium-20.0.1087: version bump,Shell
+Update stylesheets/application.css,JavaScript
+Missed an argument in re.search.,Python
+quicksort,Haskell
+Update README.md,C#
+add logo,Ruby
+Fixed some styling and a book adding prob,PHP
+user model validation,JavaScript
+renaming to defrule and adding multipkg support,Clojure
+message code reading from database,PHP
+Recomplied project 1 for AVF,JavaScript
+2012.04.01,Java
+Added notes on deprecations for 2.059 to changelog.,D
+ASoC: core: Fix the suspend/resume failure The suspend/resume schedule work fails because of the uninsantiated sound card. The fix is to skip the schedule work for the uninsantiated sound card. CRs-fixed: 339411 Signed-off-by: Kuirong Wang <kuirongw@codeaurora.org>,C
+adding gauges tracking script,Ruby
+2012/3/31公開！ ie.css,JavaScript
+"Okay, let's keep jQuery in-tree.",Python
+added : UserAccounts.UserTitle field management in io_profiles,PHP
+Update translation.,C
+update: defconfig,C
+Updated README with 'gridd test' example,Python
+updated chapters pg,JavaScript
+Log ivy messages to .ivy-log.,Clojure
+removed old files,Java
+more visitor clean ups,D
+Adding show_replies option to Twitter Bar function and adjusted the transient cache to be refreshed when settings have changed. Also fixed meta-box.php that was missing arguments,PHP
+Fixed bug that prevented full text autocompletion tags from being shown.,Ruby
+Reduce number of releases in the user set feed until it becomes faster,Python
+remove duplicate rings and notification sounds,Java
+putted #/usr/bin/python on the first line in svg_zip.py,Java
+Updated path hint for nuget package references,C#
+added opt[:redis] for passing override for Soulmate.redis - Matcher#matches_for_term - Loader#load - Loader#add - Loader#remove,Ruby
+slowly infusing agreement-as-structure-sharing through lexicon..,Clojure
+docs: add schema.org sitenavigation scope for sid-navs Change-Id: I0952195223f93bda67af0b951c3a061fe92948ce,Shell
+Add fields in person,JavaScript
+Added yaml support. All tests added to one file.,Ruby
+fixed markdown style bugs in README.md,JavaScript
+"added method to lex a file with a FILE*, this gives the library the ability to 'handle' unicode filenames",C++
+Passage à numeric_std. Ajout du diviseur d'Antoine.,VHDL
+Increase versions,JavaScript
+Game States,C++
+Enable out-of-the-box (fresh from `git clone`) pathogen installation,Python
+Add chapter notes,Ruby
+0.0.4 release,Java
+Documented the RemoteProxy interface. git-svn-id: https://selenium.googlecode.com/svn/trunk@16424 07704840-8298-11de-bf8c-fd130f914ac9,JavaScript
+Add ruby version of the messaging test.,Erlang
+"updated installation scripts, now it's much simpler to configure a Kindle 4 NT with KSP",Python
+misc,Ruby
+"extract the s3-refreshing part. Also, 'ls /path/to/very/deep/file' now works right after mounting.",Perl
+auto fulfillment stuff,JavaScript
+fixed upc lookup,Java
+"Pull all teams, not just the ones the user belongs to",JavaScript
+3.4-rc1-d0 release Signed-off-by: Robert Nelson <robertcnelson@gmail.com>,Shell
+Civvie walk state breaks when they are flung,C#
+Sort checkouts list. Remove duplicate p.a.querystring listing.,Python
+Remove crowd members from the crowd when they walk offscreen,Lua
+"Able to compile, but unable to run",C
+-timeChart.csv +KEYBINDINGS ~api.h ~main.cpp ~TODO,C++
+Rename /project to /proj and /bucket to /s3,JavaScript
+alter _connfig.yml,Ruby
+Merge branches 'py-correction' and 'noremap',Python
+More updates,Python
+Merge branch 'master' of github.com:jameshwang/market_mate,Ruby
+renamed files,Python
+Fix #34: add auto-fill on slug field in Photo admin,Python
+"add fu number to ex printout, formatting",C
+Merge branch 'master' of github.com:mcgrue/demon_door,C#
+Added initial javascript files.,Python
+Merge branch 'master' of github.com:giser/giser.github.com,JavaScript
+implemented methods to get all of questions of a certain type in db,Java
+"Got the serialization tests to pass (see the commented-out bit in xml_helper), however it appears that change has broken serialization of invoices and line items. Run the acceptance tests and see they fail because there is no <LineItems> node. Sigh.",Ruby
+Merge protich-feature/ticket-edit,PHP
+Add default dates to default SLA - implements issue#34,PHP
+"Clean up code from review, add more metadata",JavaScript
+"generic hash generic hash now with a linked list instead of avl, and the hash function is also diferente",C
+Updating donejs reference,JavaScript
+meta charset tag for encoding of play/pause controls,JavaScript
+updated chapters pg,JavaScript
+"Added algorithm that separates polyatomic ions and their quantities, to be parsed separately. Please note that this version is not yet functional, but compiles",C++
+update docs,Python
+Implemented creating tickets for a project,Ruby
+added test html,JavaScript
+Updated API,JavaScript
+Now we actually build!,C++
+[Global Marketing Strategies] Add stat,JavaScript
+Add qcom repositories for media/OMX Change-Id: I740ffb657ebceeea47e7fcd0a13ce9854bd78acf,Python
+Finish demo app,Ruby
+~KEYBINDINGS,C++
+Merge branch 'modelviewer-grid',C
+quicksort,Haskell
+Updated 'showing..' views to new tabbed format. Cleaned up code formatting.,Ruby
+Fix typo,Shell
+Tweaked Creative Commons License text. Minor tweaks to use text generated by creativecommons.org.,Java
+"Multiple : Added JSON functionality, Added base work for an OpenTK GUI, Added Kanto Pokédex data (JSON), Added art for Pokémon (Front, Back, Shiny Front and Shiny Back)",C#
+Fixed up FSTab to return a proper dictionary.,Python
+Raise the correct exception if the site isn't found,Python
+Skills Finished,C#
+General update.,JavaScript
+little tweaks.,PHP
+"subtracao OK. comentarios OK. TODO: multiplicacao(), depois divizao()",C++
+commented up the scraper,Python
+"Mergin Tom Seddon's UserScripts fixin, and updated readme.",Objective-C
+Updated .gitignore to only exclude root nuget /packages path. It was picking up Packages folder in Specs project,C#
+Merge branch 'master' into ceton,C
+Rain,C#
+Initial check-in. Tests and documentation still needed,Objective-C
+"Clicking course number defaults to calendar page, hard-coded the course wrap and course content divs onto the calendar page as well. A few styles to make things look crappily acceptable -awardi",JavaScript
+Got adapter filtering to work,Java
+D15を追加。 Dayの番号とLessonのデータ番号がずれているので、 D表記に変更。 ex) Day15 - Lesson14になっている。,JavaScript
+"Rotate the photo properly, well, assuming you're holding the camera upright anyway",JavaScript
+add solarized theme,VimL
+change the mixin style. Signed-off-by: Daogang Tang <daogangtang@gmail.com>,Lua
+added helper functions to run and compile go programs,Emacs Lisp
+added victory sound,ActionScript
+Simple type display done complex type attempt 1-2-3,Java
+Added the User class,PHP
+2012/3/31公開！ ie.css,JavaScript
+Merge pull request #2 from ktvoelker/master Pull!,Shell
+Display improvements in admin.,Python
+Recomplied project 1 for AVF,JavaScript
+"In ShowMapsActivity, I added more GPS function Now it shows your place in the map and when you click on that Alertmessage will now display showing the approximate address (city, state, etc...)",Java
+Board change Removed diode as it was pointless. Replaced the through hole pads with a 3 pin screw terminal for the output to the AVR.,Prolog
+opera-adblock-elements :: 20120401-1 Signed-off-by: BlackEagle <ike.devolder@gmail.com>,VimL
+Change calendar orientation,Shell
+nojekyll,Python
+Remove erroneous comment,JavaScript
+fixed broken links in layout,Ruby
+Changing files to CDNs.,JavaScript
+working on resque,Ruby
+Deleting RestKit,Ruby
+Merge pull request #47 from victor-homyakov/patch-9 Correct PDoc for the Ajax options `evalJS` and `evalJSON`.,JavaScript
+updated chapters pg,JavaScript
+[Showcase-TV] Add click-finder.jp,JavaScript
+fix tests due to ibrowse include file path change In the ibrowse sources ibrowse.hrl was moved from the src dir to the include dir. Change yaws tests where necessary to account for this change.,Erlang
+version 0.05 - proxyexec enhancements,C
+add yamaha fixes for galaxy tab 7+ and 7.7 Change-Id: Ic97e1aa275de29ebc79ce77e06669755fce6559a,Java
+Merge branch 'master' into navtunnel,C
+"Fix quicksearch bugs, make UI friendly for findinfiles",JavaScript
+"bug fix: device, host memory forward.",C++
+put latch pause time in to a define,C++
+Changed handling of title attribute,PHP
+improved reliability of file system access for deserialisation of image. bugs still remain.,Java
+add CNAME,Ruby
+Merge remote-tracking branch 'github/master',Java
+Test Fixes - portal/dbupgrade/transfersampledatalatest/blogs,Java
+easier on themers [sethyx],Java
+sync,Objective-C
+Merge branch 'master' into hyperspc2bodyfixes,C
+testtt,Ruby
+Done with login system,Ruby
+2012/3/31公開！ ie.css,JavaScript
+Adds View Contraction option to Context/CAB/Popup menus for GH-43 Signed-off-by: Ian Lake <ian.hannibal.lake@gmail.com>,Java
+unneeded stuffs,Java
+use form value for connection speed,C#
+forgot to require resque-retry,Ruby
+- Reorganized chords module,Haskell
+declare some AggrTypeDescriptor member functions const,C++
+Updated readme.,Objective-C
+Merge branch 'master' into commsdistdest,C
+Merge remote branch 'origin/master',Python
+"Part of future patch (design strctures) Structure design, commit2 Structure design (commit 3)",C++
+more cleanup,Ruby
+updated chapters pg,JavaScript
+Regenerate,Ruby
+Updated readme.,Objective-C
+Ensure skeleton.css gets precompiled.,Python
+Removed pwgen and placed it in its own repo,C
+Fixed call to isReady when metrics is null Other changes: - Partial cleanup of client/index.html,JavaScript
+openid,JavaScript
+git-o-matic Signed-off-by: Donald R. Gray Jr <donald.r.gray@gmail.com>,Shell
+until doc updates,JavaScript
+Fuck yeah it works!,Java
+set cookie timer for 6months,Java
+Update AOSP sources to 4.0.4_r1 Change-Id: Iba787a41da89ed4a367fe2fd916e75d4b817a1dd,Python
+All tests are passing.,Ruby
+fix get_repo_type to handle directories,Perl
+Clean-Up,Java
+updated chapters pg,JavaScript
+hotfix,PHP
+Updating all submodules to latest,VimL
+dev update,Puppet
+2012/3/31公開！ ie.css,JavaScript
+- Create TimerSetttings object from settings - Recognize clicks from timer types table - Add GPL notification and forward-declare classes,Objective-C
+modified colorbox to have cancel and save buttons,PHP
+New JQuery tic tac toe. Works with easy AI,JavaScript
+Small changes,PHP
+"ppu-gcc doesn't recognise -lGL so need to do seperate programto handle graphics. Waiting for user input to start simulation, gives time to launch graphics",C
+temp commit,Ruby
+"Merge ""Don't set instance ACTIVE until it's really active"" into milestone-proposed",Python
+Update notes for submitted changes * Don't set instance ACTIVE until it's really active,Python
+Remove deprecated config,VimL
+Function to destroy NW Mgr,Python
+mc/classic: Draw a crosshair Signed-off-by: Jakob Bornecrantz <wallbraker@gmail.com>,C
+Merge branch 'mailer-pt1',Ruby
+- Opened registration. - Published blank schedule for Spring 2012.,C#
+Added the ability to get work logs using an issue key. Update worklog entity to return time worked in seconds.,Ruby
+change the artifact from copy to promote,Java
+Done with static pages,Ruby
+using new_node @ log,JavaScript
+declare some AggrTypeDescriptor member functions const,C++
+Enable out-of-the-box (fresh from `git clone`) pathogen installation,Python
+oh yah instructions,Java
+Update readme.,Python
+Seeds and a couple logos,Ruby
+Update Man page to have Demonstration_SGP vs Demonstration_Data,R
+"Part of future patch (design strctures) Structure design, commit2 Structure design (commit 3)",C++
+Theme,Java
+Added db:drop rake task (incl. heroku postgres support) Added missing migrations Updated other stuff,Ruby
+Add EncryptedDataBag support for all passwords,Ruby
+二等辺三角形の実装を修正,Java
+Merge branch 'master' of github.com:CharlesYeh/perkinitesv2,ActionScript
+Minor improvement.,C++
+New achievement Master Product Manager (Level 10),Shell
+Update readme.,Python
+Merge remote branch 'cnngimenez/test' into test Conflicts: diaspora-notifications.el diaspora-post.el diaspora-stream.el diaspora.el,Emacs Lisp
+Implemented hydro map selection,C
+Minor Tweak to sleep timer on hackling rake. This is less of a wait per click if you are using very high endo food. Signed-off-by: Cegaiel <sharpguy32@yahoo.com>,Lua
+openis,JavaScript
+tweak colors,VimL
+[ja] Update translation.,JavaScript
+modified for my cg proj,Python
+Merge remote-tracking branch 'origin/collector-ng' into metrics.base-pom-0.1.0-update Conflicts: collector-client-support/src/main/java/com/ning/arecibo/collector/rest/DefaultCollectorClient.java collector/src/main/java/com/ning/arecibo/collector/resources/HostDataResource.java collector/src/test/java/com/ning/arecibo/collector/resources/TestHostDataResource.java dashboard/src/main/java/com/ning/arecibo/dashboard/resources/CollectorResource.java util/src/main/java/com/ning/arecibo/util/timeline/TimelineHostEventAccumulator.java util/src/test/java/com/ning/arecibo/util/timeline/TestTimelineChunkAndTimesToJson.java Signed-off-by: Pierre-Alexandre Meyer <pierre@ning.com>,Java
+plugin LMCXMPP included,JavaScript
+Merge branches 'py-correction' and 'noremap',Python
+[ja] Update translation.,JavaScript
+Merge commit 'android-4.0.4_r1.1' into ics Change-Id: Icd75e42122c5c47a899f4d01bcf43eef4d4e1e21,C
+GetDockingPortCount should return a const int,C
+"directions header now has text fields for from and to, allowing the user to easily ask for new directions. added grid/list buttons to change UI experience. tabify some files.",Ruby
+Update readme.md,JavaScript
+Merge pull request #3 from apizer/master Fix bugs in 3 files,Perl
+Merge remote-tracking branch 'origin/master',Python
+Testing to make sure I can use lists correctly,Python
+commit,Emacs Lisp
+"reimplement get using leveldb::Get In an email conversation Google suggested implementing the eleveldb ""get"" call via leveldb::Get rather than via iterators because they said leveldb::Get was up to 15% faster than the iterator approach. Our testing shows that implementing get via leveldb::Get results in reduced latency.",C++
+[Internap] Add jp domain,JavaScript
+ukadroid: ShellViewクラスのonDraw処理について、現在時間ではなくメッセージ発行時間を使用するように変更,Java
+add dotfiles,Shell
+openid,JavaScript
+Merge branch 'master' of https://github.com/garious/icontrib,C
+Add 100MHz And Voltagecontrol Compatible TegrakOC,C
+added README,Python
+added data refs readings,C
+3.1,Haskell
+"CT: Updated tutorial-2.cfg, one of the entrances was the wrong colour. Added person object, to walk around. The game crashes when you try to load him, for example by running ./ct --level test.cfg. (Of course, the game runs fine if you just run ./ct.)",C++
+WorkItem: 4902 Bug Daily work My Assignments do not display correctly Fixed!,JavaScript
+add notes,Python
+Renommage du compteur (deux utilisations).,VHDL
+33,Python
+"The configuration dialogue works now, I think",C#
+"woah, all kinds of fixes/updates. * Make the colors more like GitHub's. * Only show the assignee if exists.",JavaScript
+more updates to readme,Java
+adding notifications for swyp events.,Objective-C
+The bird should caw when it is spawned,ActionScript
+Merge branch 'master' of github.com:jupiterjs/canjs,JavaScript
+Merge branch 'master' of https://github.com/xanpeng/xanpeng.github.com,Ruby
+CC-3572: pypo user should have shell set to /bin/false -fixed,PHP
+modify file.,Python
+print/serialization refactoring #1,C++
+"background color change, layout",CoffeeScript
+"Fixes to App, Controller and their docs. Wrote entry for Deprecated",Perl
+"removed old files, and added base64 library",C++
+Fix tag name Change-Id: Ifd74da3cd41265c498c9387610a3b58b45e30519,Python
+Laying framework for marking items complete and deleting items,PHP
+fix login with facebook error,Ruby
+DB/Auth: Increase realmlist.address size to 64 (varchar) You might want to verify if the previous size did not truncate your address (it was 15),C++
+Forward /dashboard to index for now; disabled logout.,JavaScript
+Merge branch 'master' of github.com:Chadius/ClimbARope,ActionScript
+"omglol, seja o que deus querê!",Shell
+User model with passwords and user show page,Ruby
+Updated Makefile and added a little fudge around texture edges to prevent sprite sheet bleed.,JavaScript
+Pade-related test,C++
+Added new mapping config options to the server.config page,Python
+Moved Id to be an MD5 Hash so we can deal with repeated runs of the same file,JavaScript
+Documentation update,Java
+Add bootmenu and Usb projects bootmenu is ready for ICS and Usb.apk ics branch was reviewed on MotoMagic gerrit for motorola owners review. Usb switcher is still required and can be compatible with the new usb system. It adds some checks in the gadgets switching process,Python
+some more tweaks,Java
+added game hud,ActionScript
+Update iterationTwo.txt,Java
+acpulock,C
+Merge pull request #132 from german/patch-1 fixed a link to wiki in POST_INSTALL message,Ruby
+readding linear animamtions.,C#
+integrate with shawns project,Objective-C
+updated level_config because aaron thought from bottom is too hard small cleanup on ball method refactored for Pause addition (changed how to not use Time.now) extracted methods for cleanup added multiple lives,Ruby
+Reorganized the source code and added details in the README,PHP
+updated openshift configuration,Scala
+fuuuu,C#
+remote branch test,Python
+added load forwarding,C
+"Update services/hnBuild.py to not allow rollbacks of points/comments from the front page, either.",Python
+Started converting to rspec2 and factorygirl 3 syntax,Ruby
+update readme,Python
+Fixed KeyListener crash,Java
+Add unit 6 programming solution for quiz,Python
+Deal with releases with gaps in their list of mediums.,Common Lisp
+database,JavaScript
+Haxelib submission script fixes.,HaXe
+Bumped to version 0.0.10,Ruby
+Update index.md,Ruby
+Selector is now optional,Objective-C
+updated the login view styling text boxes,JavaScript
+"Use file:sendfile/5 if available Due to a bug in file:sendfile/5 in R15B, the yaws configure script enables the use of file:sendfile/5 only for versions R15B01 or greater.",Erlang
+error handling + fix connect lib,JavaScript
+Finish demo app,Ruby
+cabal-meta 0.1,Haskell
+Haxelib submission script fixes.,HaXe
+Add proof starlon's fake.,C
+Fix Talent Phantasm,C++
+msf pro stuffs,C#
+lcy,Python
+Adding simple libxml test,Shell
+Header and footer panel added to left panel.,Objective-C
+Fixing typo.,Shell
+修改引用错误。,Ruby
+Site updated at 2012-04-01 02:14:40 UTC,JavaScript
+grass 6.4.2,Ruby
+Fix,Java
+Converted the Windows::Socket module to ffi and updated its tests.,Ruby
+dive-into/goroutine: server/client demo - to be tested,C++
+corrected comments,Java
+Fixing the json,C#
+add task,JavaScript
+Thanks! :),Emacs Lisp
+Merge commit 'android-4.0.4_r1.1' into ics,Shell
+Merge branch 'master' of github.com:mcgrue/demon_door,C#
+Updated admin interface for creek menu module,PHP
+fixed null rounds in array bug,Java
+Merge github.com:kLinus/Molyjam2012,C#
+Fix a issue on StretchToParentLayout when stretching only to left and top.,Java
+add CIFS and TUNS as modules,C
+qianjun,JavaScript
+trying to fix xlarge,Java
+tags and cats,JavaScript
+Tab now loads on startup correctly.,JavaScript
+Rewrote nfa2dfa conversion in C,C++
+push changes,PHP
+gitignore for icons folder,Ruby
+fixed bug in downloader activity didnt stop checking files when activity stopped,Java
+Fixed why senders name was in private message. Signed-off-by: emericask8ur <sk8tj@yahoo.com>,Java
+added DS_Store to gitignore,Objective-C
+change count to size(),JavaScript
+Update rabbitmq role Change-Id: I19a6545ed43d900d6aaffd7342ea034c1963cb66,Ruby
+"make wig2png make background of wiggle PNGs transparent by default, but have a command-line option to turn it off",JavaScript
+添加超链接。,Ruby
+Merge remote-tracking branch 'origin/test',Emacs Lisp
+- Added a README file,Objective-C
+new lcy,Python
+status and headers work before a render call,Ruby
+revert changes,C
+Merge branch 'seasonality' Conflicts: CUESAMobile/bin/CUESAMobile.apk CUESAMobile/src/com/edu/usfca/CUESAMobile/SelectProduceActivity.java,Java
+IMM72B,Shell
+remove MineCraftBot,JavaScript
+new post,JavaScript
+vector3,Ruby
+"errrr, stupid error",Python
+colorscheme changes,Shell
+Merge pull request #20 from Pamelloes/master Containers can be used as a backing for custom blocks.,Java
+corrected artifact name to promote,Java
+more script fixes,Visual Basic
+auto-20120401021701342016922,Shell
+Merge pull request #45 from victor-homyakov/patch-6 Add messages to assertions in testSelectorWithEnabledDisabledChecked().,JavaScript
+framework/base: Change to enable mm-parser. - mm-parser related enums are added in framework - adding ExtendedExtractor module to plug-in mm-parser with framework - adding MIME type that are supported by mm-parser Patchset 1: Add QCOM_HARDWARE ifdefs. Change-Id: I06b330275605a84668c6690570805892eb2b17d0 Signed-off-by: Evan McClain <aeroevan@gmail.com>,Java
+Load markdown.js in the asset pipeline,Ruby
+modified: AndroidManifest.xml new file: res/color/black_to_white.xml new file: res/color/silver_to_white.xml renamed: res/drawable-nodpi/titlebar.9.png -> res/drawable-nodpi/activity_title_bg.9.png new file: res/layout/activity_title.xml new file: res/layout/bicyle_map.xml modified: res/layout/tab_item_view.xml deleted: res/layout/title_bar.xml modified: res/values/color.xml new file: res/values/dimens.xml modified: res/values/strings.xml modified: res/values/styles.xml modified: res/values/themes.xml new file: src/com/walt/ActivityTitle.java new file: src/com/walt/BicyleApp.java modified: src/com/walt/BicyleMap.java,Java
+"Merge branch 'issue_30_y_axis_labels', closes #30",JavaScript
+"youtube user, and video with iterator...",JavaScript
+indentation of GetError usage in above Iterator defn,Go
+"Added: ""You feel lonely.""",Java
+Merge branch 'master' of github.com:faaez/Phonar,Java
+Merge branch 'master' of github.com:elmerfud/LED_Examples,Arduino
+rename web.py to api.py because web stuff is moved to total-impact-webapp,Python
+Set guifont accourding to user OS.,VimL
+fixed more markdown style bugs in README.md,JavaScript
+"added autoversioning, changelog",C
+correction des ajouts time slot + debut de Add class period,C
+Updated by cron,JavaScript
+IMM76,Shell
+Reverted some unnecessary changes.,Java
+修改格式。,Ruby
+Bug Fix: Fixed the about window closing the entire application.,Java
+added more info Signed-off-by: Matthew Pigram <mmp788@uowmail.edu.au>,C#
+fixed S3,JavaScript
+Correcting a typo,Ruby
+Merge branch 'master' of github.com:alexwyler/Resistance-Online,JavaScript
+Automatic project changes.,Objective-C
+Merge branch 'lua-dock-count' of github.com:Philbywhizz/pioneer into lua-dock-count Conflicts: src/SpaceStation.h,C
+updated documentation,Python
+Uploading raw videos,C#
+Oops! :-S,Emacs Lisp
+added some styling,JavaScript
+Updated Docs,JavaScript
+Merge branch 'workflows' into develop,Ruby
+commit gemspec,Ruby
+Image accumulation changes. Image now converges to correct solution over time.,C
+IMM76B,Shell
+using an atomic counter to back the primCount parameter of the indirect call,C
+test10.csd is now a Bach excerpt.,Python
+combine ul and ol,Python
+Woot! First working menu system and playing songs works! Have yet to try a remote (aka slow connection) test.,Perl
+test10.csd is now a Bach excerpt.,Python
+SystemTray周りの実装を変更。これまではmainwid内部で処理していたのをmainwindowに写した。mainwidはSIGNALを送信しmainwindowで受け取ってSystemTrayIconを制御する,C++
+added readme,Python
+"removed to check .INBOX* directories due to ""too many arguments"" error",Shell
+main.mk: Detects incompatible python3 also updated urls for setting up a build environment Change-Id: I5e662b65f52413ad172659e87fb8a1881de86f96,Shell
+"Finishing touches on waiting rooms. This is mostly feature complete. What remains is a lot of tiny improvements that can be done later on. I've been working on this feature for waaay too long, heh…",JavaScript
+mc/classic: Fix camera ratio being wrong with widescreen modes Signed-off-by: Jakob Bornecrantz <wallbraker@gmail.com>,C
+modules,JavaScript
+sundry fixes and changes. added tagging.',Python
+Added Diagnosis page,Java
+little change,Shell
+Adding git-hook Taken from https://github.com/icefox/git-hooks/,VimL
+commit from IntelliJ,Java
+Merge branch 'master' of github.com:alanwoolley/CorsixTH-Android,C
+Fix derive 2.5.7 build with haskell-src-exts-1.13.0,Haskell
+BOA: Fix usage.sh logic (Robert),Shell
+Merge branch 'waiting_rooms' into develop,JavaScript
+"added vundle, as it shouldve been for a while now",VimL
+Merge remote-tracking branch 'origin/test',Emacs Lisp
+third round of navigation updates,PHP
+IMM76C,Shell
+Update README,JavaScript
+Fix derive 2.5.7 build with haskell-src-exts-1.13.0,Haskell
+Updated Item to add a toString method,Java
+Merge pull request #57 from richmarr/master Allow secure connection to CouchDB,JavaScript
+Still playing around with RestKit install,Ruby
+Updated demo.js and readme.,JavaScript
+"Revert ""main.mk: Detects incompatible python3"" This reverts commit 5f31c040691080212e8b43557649d0ec1b094dd5.",Shell
+"content edits, new snazzy pattern photo",JavaScript
+Drop mk-build-deps and get-build-deps. They are both unreliable and get-build-deps gives an exit status of 0 even when it fails.,Perl
+Events cleanup.,Java
+Added flush command. Replaced state calls with safe ones.,C++
+reflecting updated submodules.,Objective-C
+BOA: Fix usage.sh logic (Robert),Shell
+Merged upstream changes.,JavaScript
+修正一个bug,Ruby
+IMM76D,Shell
+Enabled April Fools trollface on title (/web),JavaScript
+updated readme,Scala
+三角形でない実装修正,Java
+Update metasploit-sharp/MetasploitProManager.cs,C#
+Problem 99,C++
+fixed security issues with the delete handler,Python
+qianjun,JavaScript
+working mostly,JavaScript
+update wp to 3.1 and update afc plugin,PHP
+Fixed breaking at world height in creative. Fixes BUKKIT-997,Java
+Merge branch 'develop',JavaScript
+修改主页标题和关键字,JavaScript
+Trivial updates to skeleton,C++
+Update README,JavaScript
+ignore badtokenexception,Java
+"This commit has the following changes/additions: + ControlUnit.vhd has a few more processes that handle signal setting/clearing. This is to ensure synchronization. + The overall operation of the router for two control packets sent seem to be more predictable and streamlined. The synchronization signals might have a lot to do with this. Once we inject multiple packets, we'll see how well the router works. Signed-off-by: koru <krikorh@unlv.nevada.edu>",VHDL
+Use EOS nightly 17 defconfig for EOS wifi,C
+framework/base: Add customized parameters for camera features. Patchset 1: Add QCOM_HARDWARE ifdefs. Patchset 2: Don't need to ifdef snprintf over sprintf. Change-Id: Id39c71976823ad18627f1e14d1b5e2fd0597c82e Signed-off-by: Evan McClain <aeroevan@gmail.com>,Java
+Merge pull request #9 from colinf/conform Add support for conform function used in resourceful,JavaScript
+weee,Lua
+Fixed windowed resize under mac…,C++
+"New font, organized themes, and styles, roots submodule.",JavaScript
+Colors: add more colors to final build steps also fix releasetool echo and visible recovery echos Change-Id: Icf5d88468572f935610c544bf1d5d356ec9870d3,Shell
+Merge branch 'develop',JavaScript
+Fixed being unable to use water in The End. Fixes BUKKIT-1002,Java
+Merge pull request #52 from colinf/doc-conform Change assert() to conform() in README so as to match code,JavaScript
+Youpla themed,Java
+clearer comments,Python
+Added button listeners and cleared list data,Java
+modify all file.,Python
+Moved Id to be an MD5 Hash so we can deal with repeated runs of the same file,JavaScript
+final updates on Live launch date,JavaScript
+Merge branch 'master' of github.com:lihaoyi/21W.789,Java
+Add WYSWYG functionality for post edition,Ruby
+update website,JavaScript
+增加部分注释.,Python
+Merge branch 'master' of github.com:jupiterjs/canjs,JavaScript
+Deleted duplicate readme file,PHP
+Updated translations from CKEditor Translation Center git-svn-id: http://svn.ckeditor.com/CKEditor/trunk@7440 da63caf2-3823-0410-a1e8-d69ccee00dfb,JavaScript
+[Bleeding] Added a reason for randomly spawning Ocelot babies. Addresses BUKKIT-1391,Java
+Adding support (beta) of OpenEJB and Mockito,Java
+jake default task run test,C#
+jake nuget:pack,C#
+Update README,JavaScript
+forgot to uncomment,Visual Basic
+Moving icons to the correct path,JavaScript
+Started just directly editing the Readme.md file,Python
+Added new entities; Updated entity description; added TaskIdGeneratorDao,Java
+added sorting buttons,Python
+little change,Shell
+facebookadded,Ruby
+Update README.md,JavaScript
+-,PHP
+Readme fixes,JavaScript
+add lyricwiki service,Python
+user model scopes,JavaScript
+user support + logging changes,CoffeeScript
+Uploadin pics,C#
+Improve README,Ruby
+- Minor fixes,Haskell
+removed more XML,Java
+"Updating run script, again",C++
+Note people who've contributed.,C
+"nbody: Fix valgrind error, missing error messages",C
+Merge pull request #2 from HomuHomu/android-3.0-v2.2 Build Script Change,C
+change commit_id to more abstract reference association. Allow reference partial to allow for things other than issues.,Ruby
+Merge branch 'master' of github.com:jupiterjs/canjs,JavaScript
+"ACQ Upload import-copy option With the addition of the new Vandelay features in ACQ, the ""Load bibs and Items"" option was replaced with Vandeley import options. In the context of ACQ, however, Vandelay is only concerned with importing bibs and not copies. Subsequently, the user lost the ability to both create catalog records and catalog copies in one step during ACQ upload. The patch remedies that by providing a new ""Load Items for Imported Records"" option within the upload page. When enabled, all successfully loaded ACQ copies will also be imported as real/catalog copies. Note that it's only added to the upload page, because all other ACQ interfaces assume that both bibs and copies should be created (e.g. during PO activation). Signed-off-by: Bill Erickson <berick@esilibrary.com> Signed-off-by: Jason Stephenson <jstephenson@mvlc.org> Signed-off-by: Mike Rylander <mrylander@gmail.com>",JavaScript
+reformat tabs,Objective-C
+Improved SingleListSelectionModel. Made it behave more like documented SINGLE_SELECTION behavior. Dragging the mouse on an item in the Action list no longer causes valueChanged to repeatedly fire.,Java
+Fixed the FSTab dictionary.,Python
+Added readme,JavaScript
+made ~ work as translateable strings in FSON,C++
+"Make some DynamoDB operations simpler, add Amazon:DynamoDB:UpdateItem",JavaScript
+Adding find-method command.,Ruby
+"Merge ""Fix exception type in _get_minram_mindisk_params"" into milestone-proposed",Python
+Web,Shell
+CHANGES IN VERSION 1.5.0 ------------------------ o bump up version to 1.5.0 for BioC 2.11 devel o add URL in DESCRIPTION,R
+Update notes for submitted changes * Fix exception type in _get_minram_mindisk_params,Python
+update documentation,Python
+Fix Talent Phantasm Scripts/VP: lets give the bracktes more useful reasons to be there Scripts/VP: lets give the brackets more usefull reason to be there :P Scripts/VP: lets give the brackets more useful reasons to be there th… …e 3rd,C++
+Individual classes completed; Documentation completed from Java version; all functions written in Duck Code and further pythonized,Java
+"немного украшательств, допилен бар",Python
+added jake desc for default task,C#
+Adding find-method command.,Ruby
+v3.0,Java
+added powerline because of its extra themes,VimL
+Added incrbyfloat-precision setting to config file.,C
+修复PythonInterpreterTest一个bug boost::make_shared<PersonTest> 而不是 boost::make_shared<PersonTestPtr>,C++
+port initialization hack,C
+Minor improvement.,C++
+Añadido el comando 'pwd',C++
+added ageny instantiation semantics and sample models,Java
+translate page: Chef Basics,Ruby
+sync,Objective-C
+The type must correspond to that of the variable.,C++
+Additional syntax colorization,JavaScript
+merge from upstream,Erlang
+Updated docs,JavaScript
+Basic styling with Bootstrap,Ruby
+added ageny instantiation semantics and sample models,Java
+Beginnings of a GUI implementation,Python
+Merge branch 'feature-manifest' into develop,Python
+logger.info replay names during batch loading.,Python
+undo my previous commit,Python
+Reduces visibility of class members where possible. Signed-off-by: Ian Lake <ian.hannibal.lake@gmail.com>,Java
+Merge commit 'android-4.0.4_r1.1' into ics Change-Id: If66996077a0e2815596ce92821a0b5c43bb05f5b,Shell
+update documentation,Python
+Typo.,JavaScript
+Update required version of eventmachine,Ruby
+Added more test cases to the database,PHP
+build in colors: host C/C++ Change-Id: Ic415cab53a2efa104c9d4b31ddbe8c8eb74e493d,Shell
+all: converte todas as aplicaçoes para utilizarem valores convertidos em InputComponent. Signed-off-by: Francisco Prates <mad.kanie@gmail.com>,Java
+Twilio js connection can be made,Ruby
+algorithm update,JavaScript
+"added SpawnDescriptor class, added a vector of SpawnDescriptors to TeamDescriptor (which I renamed from Team). I also changed the fields in HBMap to agree with our new datatype scheme.",C++
+Merge branch 'master' of github.com:jupiterjs/canjs,JavaScript
+removed powerline and added just the colorschemes,VimL
+A few style cleanups - Helvetica Neue preferred over Helvetica (this is personal preference) - Size the textarea using border-box so that the 100% height is correct - Absolutely position the textarea because the border-box didn't 100% solve the problem and I got desperate.,JavaScript
+Decent styling,Python
+"- fix bug in gtx, and remove redundant function wrapping",JavaScript
+"[update]abstractAdd, abstractForm and abstractEdit. [update]venuespace",Java
+Use CORRECT defconfig for EOS. Geez...,C
+Fixed FSTab to act like a dict rather than attrs.,Python
+Fixed spelling error,JavaScript
+Fixed markdown in README,JavaScript
+Updated show pages to add location name to the schedules index page and the upcoming sections of the show pages.,Ruby
+app erb architectur and bootstrap,Ruby
+Fixes id duplication in outline importer.,Scala
+Merge branch 'master' of github.com:stylesen/squeeze-quickstart,JavaScript
+modified for github,Python
+update description LMCXMPP,JavaScript
+Merge branch 'release-0.2',Ruby
+Add breath bar for players,JavaScript
+underwater,JavaScript
+"freetype font, first output",Ada
+"added kickstart config file, changed custom validation password",PHP
+Finalizado el formulario,JavaScript
+remove some themes,VimL
+use -c flag,VimL
+updated chapters pg,JavaScript
+update from PhoneGap 1.4.1 to Cordova 1.5,JavaScript
+Pom update,Java
+restore browser compatibility,JavaScript
+解决与毛宇分支合并时发生的编译错误，似乎有些毛宇的代码没有合并过来，原因不明,Objective-C
+claimitem srysyukbn transient,Java
+Merge branch 'master' of github.com:jupiterjs/canjs,JavaScript
+"fixed c.LinearInequality.initialize() to handle linearExpressions as first & third arguments, ie. `expression <= expression`, or `expression >= expression`... Added 3 tests in End-To-End-test.js, the `expression == expression` test passed without this commit",JavaScript
+Merge branch 'froyo' of https://github.com/voku/android_bionic into froyo,C
+Beefed up font size for block quotes,JavaScript
+proxyexec/contrib/gitolite g2 usage example,C
+Update README.md,JavaScript
+Override Debian default so search bar works http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=665817#42,Perl
+Merge remote-tracking branch 'upstream/master' into cleanups,C++
+"Go to hell, TreeMap. Signed-off-by: Robert Xu <robxu9@gmail.com>",Java
+Added Anorm example,Scala
+Merge remote branch 'upstream/ics' into ics,C
+add reset printer (does not really work) pronterface.py resets the printer by setting DTR high and low which doesn't seem to work here,C++
+"auth.py: Added some logic to BaseAuthHandler.user_login() to responsibly deal with the situation where the user's session file is corrupt/empty. gateone.js: Added support for loading plugin CSS templates over the WebSocket. This will result in a large reduction in the number of GET requests. gateone.js: Tweaked the dimensions detection again... This time it is a bit more conservative. I'd rather have the top line be missing than have the top line get cut off. gateone.js: Added a new function to GateOne.Visual: widget(). It is very similar to GateOne.Visual.dialog() in that it creates a draggable element on the page with a specified title and content but with different styling. For example, the title isn't visible unless you hover the mouse over the widget for one second. Also, the entire widget is draggable (dialogs can only be moved by dragging the titlebar). Widgets can also have a configuration function assigned to them to provide the user with a configuration interface (an example of this is forthcoming). gateone.js: The single 'pastearea' is gone. It has been replaced with multiple paste areas! From now on each terminal will get their own. This is to enable things (like widgets) to be attached to terminals while being able to float above the paste area (from a z-index perspective). This is a fairly significant code change so there might be a few bugs that need to be ironed out. gateone.js: Fixed the long-standing bug where if you tried to drag a dialog in Firefox it would mysteriously get moved to the far left of the window (after which it would drag just fine). Now dialogs drag in a natural fashion. gateone.js: Fixed a long-standing bug with GateOne.Input.mouse() where it wasn't detecting/assigning Firefox scroll wheel events properly. gateone.py: Added support for sending plugin CSS templates via the TerminalWebSocket.get_style() function. gateone.py: Plugin CSS templates won't be called/loaded at the end of TerminalWebSocket.authenticate() anymore as gateone.js now takes care of that. SSH Plugin: execRemoteCmd() now supports an errorback function as a fourth argument that will get called in the event that the remote command exeution isn't successful. SSH Plugin: got_error() now accepts 'term' as a keyword argument (so that information can be available to the new errorback functionality). Themes: Tweaked them all in various ways and added the widget CSS. Nothing spectacular. Playback Plugin: Shift+scroll now works to go forwards/backwards in the playback history in Firefox. Previously this only worked in Chrome.",Python
+Refatorando o codigo,Java
+Add new SmoothBrick texture; Addresses BUKKIT-1417,Java
+routine update,JavaScript
+Fixed breaking at world height in creative. Fixes BUKKIT-997,Java
+make menu items automatically capitalize Add company to contact form,Ruby
+Merge pull request #4 from JustinTulloss/master Style and JS cleanups,JavaScript
+adams new code,Java
+Changing the one method in a helper to be a decorator method,Ruby
+Add user microposts,Ruby
+Added resistor class with prelim methods.,Java
+change setting parameter,JavaScript
+re-add bulgarian translation that got lost in previous commit,Python
+add new article,JavaScript
+use undef_method to avoid NameError exceptions all the time,Ruby
+Updates,JavaScript
+chapter 7,Ruby
+implemented methods to add/delete questions to db,Java
+Add in a rough-draft of the require() mechanism. exports does not work with the store/fetch_global mechanism so is bound to cause confusion,JavaScript
+Update,CoffeeScript
+Restyle the fretboard,CoffeeScript
+Allow replacing sub values like transform within transition property,PHP
+Added a reason for randomly spawning Ocelot babies. Addresses BUKKIT-1391,Java
+"One wireless module per kernel, don't get greedy",C++
+Clean destroy,Python
+change,Ruby
+Updating links for downloads.,JavaScript
+added consts and removed return references in hack.h,C++
+Moved Clippy's height down a bit,JavaScript
+"Each command may run in the benchmark directory, to properly create output files",C++
+Editing: Included a link to Tom Morris's piece,JavaScript
+updated chapters pg,JavaScript
+"Adding ""Running Chef Recipes Once.""",Ruby
+Added three new TopCoder problems,Java
+Implemented some question actions; Expressions now work properly,Java
+"Bugfix in dot product for 32bit,32bit vector dot product computation",C++
+refactored rake file,Objective-C
+merge from upstream,Erlang
+Updated readme,PHP
+rvmの設定追記,VimL
+bug fix,Python
+Added my modified version of tvdb_api,Python
+Put snapshots in a different spot,JavaScript
+Update board-info for radio.I515.FC03 Change-Id: I6640e323792e1d2517c84ea1cb8174f2d30e675f,Shell
+题目页面显示详细提交信息,JavaScript
+Widened test window,ActionScript
+Separated uploadGuiceArchives from uploadArchvies task * Added repository definition to uploadGuiceArchives task * The answer post on stackoverflow: http://stackoverflow.com/questions/9957771/uploading-artifacts-from-multiple-configurations-to-maven-in-gradle/9959025#9959025,Java
+The Mediaplayer.cs can now play most sound types.,C#
+Moved the user configuration variables into a user config file ($HOME/.freewriterc). A sample file (freewriterc.sample) is included.,Shell
+Layer names,C#
+Late update.,JavaScript
+Adding publication.,Scheme
+change theme,Ruby
+Add some start menu entries #83,C#
+Copied implementation of linear to exp but need to make equation to change the amplitude.,Java
+Merge pull request #11 from paularmstrong/bug/lint appeasing our crockford overlord.,JavaScript
+iframe,JavaScript
+completed basic gameloop,Java
+Merge,JavaScript
+@B Zwischen d.m.yyyy und ddmmyyyy unterscheiden,Java
+cvsimport,Java
+Add favicon,JavaScript
+"Merge ""Handle instances being missing while listing floating IPs"" into milestone-proposed",Python
+Update notes for submitted changes * Handle instances being missing while listing floating IPs,Python
+include system status banner,JavaScript
+usf.dm_role update,C
+"basic ui, forms, controllers",PHP
+libstagefright: Initial commit for video Patchset 1: Add QCOM_HARDWARE ifdefs. Patchset 2: Rebase and move omx include to vendor. Patchset 3: Fix whitespace Conflicts: include/media/stagefright/OMXCodec.h media/libstagefright/OMXCodec.cpp Change-Id: I6586f3d29524ba031d8c814abdfbb47bb7e5bfda Signed-off-by: Evan McClain <aeroevan@gmail.com>,Java
+Change write interface to take multiple keys at once,Java
+Easy mode: Use the TA `nextNodeOnLevel()',Java
+Adding some more things to .gitignore,Scala
+update website,JavaScript
+README: remove backticks to make formatting nicer,C
+Small Change Master Poisoner,C++
+Start again :(,Java
+Port dialog window now comes up and draws something. Can also be reopened without crasing.,C++
+Updated to pass floats to all python scripts now,Python
+Merge branch 'datatypes' of github.com:shewu/h4ck4th0n into datatypes,C++
+Simplify,Ruby
+finished unique urls for projects,Python
+Changing manifest,JavaScript
+minor cleanups,C
+added charcoal to items.txt,Java
+adding draft but still need pix,JavaScript
+Updated documentation,Shell
+Finish layout and routes,Ruby
+"dziala w miare, jeszcze kontury po krawedziach trojkatow",C++
+add random on hotel,JavaScript
+"Editing: Be concise, win at life",JavaScript
+playing with adjust-color but still don't like it enough to uncomment,JavaScript
+change1,Ruby
+Fixed/silenced some warnings and cleaned up the repo.,C
+pushc hanges,PHP
+Use CDN for logo,PHP
+"LooperInstrument is now separated from sound manager, interacts with it through interment service. TODO: finish remote sound manager <--> server",Java
+[mr1832] Move some calculates to GetRewMoneyMaxLevel() This cause correct showing quest reward money in gossip and etc,C++
+Updated documentation for can.bind/unbind/delegate/undelegate as well as API information on a bunch of can.util,JavaScript
+Update sailing page,JavaScript
+Doctor Patient Lookup Page,Java
+added DISCLAIMER to README,PHP
+Test should exit 0 with no output.,Shell
+Merge branch 'master' of github.com:jupiterjs/canjs,JavaScript
+format,JavaScript
+add README.md,JavaScript
+new data,Python
+update status image,JavaScript
+Moving file to correct spot.,Scheme
+Sizes updated.,JavaScript
+Forgot to move to /boot before making links.,Python
+add: Peer to Peer memory access support functions.,C++
+changed readme,Python
+Just fixing some things that got screwed up during an attempt to merge branch scala into master then delete it. Signed-off-by: Arrorn <drkmcavoy@gmail.com>,Scala
+Editing: Sabotaged by vim,JavaScript
+fix document,C#
+Merge pull request #51 from victor-homyakov/patch-11 Optimize performance in `Element#clonePosition` by skipping unnecessary measurements.,JavaScript
+change flh,JavaScript
+underwater,JavaScript
+"[mr1833] Set unMaxTargets for 46771,45641",C++
+"restructure form access. With tag1, we only have access to DOM state through event handlers",C
+Testing,JavaScript
+fixed the ullman case but adding a domain portion,Java
+Used the wrong grub configuration file.,Python
+Forgot to add /,PHP
+ignore cache files,PHP
+[#8]: Fixed the top tweet to be 10 AM to 10 AM instead of midnight yesterday to the current time.,Ruby
+"removing index.html, inlining the template",Python
+Changing an overlook in how args[1] was interpreted,Ruby
+"aries-common: adb root in recovery The new root-prevention system setting doesn't work in recovery, so we always start it as root.",C
+Update notes for submitted changes * aries-common: adb root in recovery,C
+Merge branch 'master' of github.com:frogatto/frogatto,C++
+merging because stupid,C
+Merge branch 'master' of github.com:Devbootcamp/Impressi,JavaScript
+sync,Objective-C
+"Added new processing sketches from abandonedart.org Downloaded and added the sketches blondeboids, snakediver, and spyro6.",Java
+"Alright, so everything is set up. the only thing left to do is to implement the algorithm in smartcalculator.java. I made the list of weapons into type STRING. The list of weapons called WEAPONSTHROWN, is passed from GameController.java to cpuThrower.java to smartthrower.java. So... anyone know how to implement the algorithm?",Java
+added a TODO list,Python
+v4.0,Java
+fixed private field issue,C++
+Remove block on mark-receive from non-PO UI Allow lineitem mark-received action to take place from lineitem table UI even when not viewing a PO (e.g. from search results) Signed-off-by: Bill Erickson <berick@esilibrary.com> Signed-off-by: Jason Stephenson <jstephenson@mvlc.org> Signed-off-by: Mike Rylander <mrylander@gmail.com>,JavaScript
+a,Java
+Improve odds and round the ave time,Ruby
+Saturday final commit,PHP
+Merge branch 'gh-pages' of git://github.com/jupiterjs/canjs into gh-pages,JavaScript
+Update example environment,Ruby
+Merge branch 'master' of github.com:HarbingTarbl/Moxy,C#
+samsung: set proper native color format if using samsung codecs Change-Id: Ifd76d88f9f7a1947a1583322f0a675dec6d12ed,Java
+change commit_id to more abstract reference association. Allow reference partial to allow for things other than issues.,Ruby
+updating readme file,Ruby
+underwater,JavaScript
+Added box boundary conditions.,C++
+added 34 Signed-off-by: Waterpicker <waterpicker@rocketmail.com>,Java
+"Merge pull request #52 from victor-homyakov/patch-12 Explain the `TypeError` thrown when a circular reference is found while serializing an object to JSON. (Victor Homyakov, Andrew Dupont)",JavaScript
+test git merge,Python
+Making my half-done website exist.,Ruby
+show hostname on all pages; gets confusing with many runsits,Go
+cant have require jquery,JavaScript
+"Merge ""4.0.3 >>> 4.0.4 yet again, thanks to JBQ, hopefully this is the last time for 9.0"" into ics",Shell
+"Update notes for submitted changes * 4.0.3 >>> 4.0.4 yet again, thanks to JBQ, hopefully this is the last time for 9.0",Shell
+Adding can.EJS.Helper.list documentation.,JavaScript
+Merge pull request #321 from craigh/Ticket_320 Ticket 320,PHP
+Update index.html,JavaScript
+commit,Objective-C
+Updating where jquery comes from,JavaScript
+[untested] returning ClassRuleModelValidator for class rules,C#
+Added Toast notifications,Java
+rb-tree 1 2 3,JavaScript
+change flh,JavaScript
+Optimization of find_method,Ruby
+Template file should not need prefixed /,PHP
+Added time capture. currently fails the parallel tests on windows.,R
+asdfa,PHP
+Update doc/RELEASE with release notes for 1.2.10.,PHP
+Updating can reference,JavaScript
+change some features and steps,Ruby
+theme: mayuco -> enishi-green,Ruby
+updated readme,Scala
+Additional Formatting of README,PHP
+more cleanups for ast structure,D
+Reworking code for 0.7 but need a new java driver release to support,Java
+adding image,Python
+Simple type display done complex type attempt 1-2-3,Java
+Cleaning up,PHP
+"20120331 tpd src/axiom-website/patches.html 20120331.01.tpd.patch 20120331 tpd src/axiom-website/download.html update download table 20120331 tpd src/axiom-website/patches.html update patch frontier 20120331 tpd src/algebra/Makefile fix MYUP, etc 20120331 tpd src/axiom-website/releasenotes.html 20120331 tpd books/ps/v71releasenotes.eps add release notes 20120331 tpd books/ps/v71mar2012.eps added 20120331 tpd books/bookvol7.1 update What's New Page 20120331 tpd Makefile.pamphlet VERSION = March 2012 20120331 tpd Makefile VERSION = March 2012",Common Lisp
+add supress-output optional parameter,Clojure
+fixed movement issue with GameObject and hopefully the timing issue across machines. Hopefully.,C
+modified QuestionActivity slightly to have it import the questions using DBManager.,Java
+added file loader,Java
+change systemstatus.js and exec,JavaScript
+Updating donejs reference,JavaScript
+Add a help button to the preferences dialog,C
+Added predict.m functionality,Matlab
+Merge branch 'master' into live,Ruby
+slight change to fix push notification name hopefully,Java
+updated requirements,Python
+Improve the README file,Ruby
+Site updated at 2012-04-01 02:38:52 UTC,JavaScript
+Fix horrid bom children cache bug.,Ruby
+exit if any of the pip/python calls fail,Shell
+Merge commit 'android-4.0.4_r1.1' into ics Change-Id: I0347dd4b3662d149ead0cd95a27927130e7a6cfc,C
+shorten too-long lin in GetApproximateSizes,Go
+better approach to last algorithm update,JavaScript
+Fixed the version number to latest one.,Java
+Fixed the version number to latest one.,Java
+From Noah,JavaScript
+bug.pl,Perl
++ fix :P,C
+"RFMath + CGRect CGRectChange(CGRect original, RFCGRectChangeFlag flag, CGFloat newValue);",Objective-C
+"Adding a view for resendign activation emails, and two templates for it. Update the duplicate user check in registration to check for awaiting-activation accounts. And minor bug fixes and code cleanups preparing this branch for pull request",Python
+"A bunch of specs, and a bunch of functionality for config values.",Ruby
+asdfaf,PHP
+"oops, one more thing... sigh",Java

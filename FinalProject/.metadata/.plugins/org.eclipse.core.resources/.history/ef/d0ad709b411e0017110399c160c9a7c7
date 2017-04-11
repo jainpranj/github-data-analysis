@@ -1,0 +1,26 @@
+package com.github.sentimentalanalysis;
+
+import java.io.IOException;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.FloatWritable;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.SortedMapWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Part4Mapper extends Mapper<LongWritable, Text, Text, SortedMapWritable> {
+	
+	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+		if (key.get() > 0) {
+			String[] tokens = value.toString().split("::");
+			Text moviedID = new Text(tokens[1]);
+			float rating = Float.parseFloat(tokens[2].trim());
+			SortedMapWritable ratingMap = new SortedMapWritable();
+			ratingMap.put(new FloatWritable(rating), new IntWritable(1));
+			context.write(moviedID, ratingMap);
+		}
+	}
+}

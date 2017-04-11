@@ -1,0 +1,13 @@
+package com.github.sentimentalanalysis;
+
+public class RegexTestStrings {
+        public static final String EXAMPLE_TEST = "remove caveat section,I will write it later when I know what it is and can articulate without being bitter";
+public static final String regex="\\b(a+rgh|angry|annoyed|annoying|appalled|bitter|cranky|hate|hating|mad)\\b";
+
+        public static void main(String[] args) {
+        	String regex="/\b(?:one|two|three)\b/gi";
+                System.out.println(EXAMPLE_TEST.matches(regex));
+                boolean a = EXAMPLE_TEST.matches(".*\\b(a+rgh|angry|annoyed|annoying|appalled|bitter|cranky|hate|hating|mad)\\b.*");
+    System.out.println(a);
+        }
+}

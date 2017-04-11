@@ -1,0 +1,47 @@
+package com.github.sentimentalanalysis;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+import org.apache.hadoop.io.Writable;
+
+public class StabdardDeviationAndMedian implements Writable {
+	private double median;
+	private double standarddeviation;
+
+	public void write(DataOutput out) throws IOException {
+		// TODO Auto-generated method stub
+		out.writeDouble(median);
+		out.writeDouble(standarddeviation);
+	}
+
+	public void readFields(DataInput in) throws IOException {
+		// TODO Auto-generated method stub
+		median=in.readDouble();
+		standarddeviation=in.readDouble();
+	}
+
+	public double getMedian() {
+		return median;
+	}
+
+	public void setMedian(double median) {
+		this.median = median;
+	}
+
+	public double getStandarddeviation() {
+		return standarddeviation;
+	}
+
+	public void setStandarddeviation(double standarddeviation) {
+		this.standarddeviation = standarddeviation;
+	}
+
+	@Override
+	public String toString() {
+		return median+ "\t"+standarddeviation;
+	}
+	
+
+}

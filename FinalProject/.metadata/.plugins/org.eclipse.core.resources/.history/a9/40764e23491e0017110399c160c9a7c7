@@ -1,0 +1,35 @@
+package com.github.sentimentalanalysis;
+
+import java.io.IOException;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.FloatWritable;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.SortedMapWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Mapper.Context;
+
+public class GithubSentimentalAnlysisMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+	public static String angerWordsRegex;
+	public IntWritable one=new IntWritable(1);
+
+	protected void setup(Context context) throws IOException, InterruptedException {
+		angerWordsRegex = "(?i).*\\b(a+rgh|angry|annoyed|annoying|appalled|bitter|cranky|hate|hating|mad)\\b.*";
+	}
+
+	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+		if (key.get() > 0) {
+			String tokens[]=value.toString().split(",");
+			String commitMessage=tokens[0];
+			String language =tokens[1];
+			if(commitMessage.matches(angerWordsRegex)){
+				context.write(language,one);
+			}
+			
+
+		}
+	}
+}

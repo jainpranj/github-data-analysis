@@ -1,0 +1,5 @@
+package com.github.sentimentalanalysis;
+
+public class CompositeWritable {
+
+}
