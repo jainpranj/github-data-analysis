@@ -1,0 +1,6 @@
+com/github/sentimentalanalysis/RegexTestStrings.class
+com/github/sentimentalanalysis/SentimentalAnalysis.class
+com/github/sentimentalanalysis/CompositeKeyWritable.class
+com/github/sentimentalanalysis/EmotionPartitioner.class
+com/github/sentimentalanalysis/GithubSentimentalAnlysisMapper.class
+com/github/sentimentalanalysis/GithubSentimentalAnalysisReducer.class

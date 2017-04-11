@@ -1,0 +1,24 @@
+package com.github.sentimentalanalysis;
+
+import java.io.IOException;
+import java.util.HashMap;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
+
+public class GithubSentimentalAnlysisEmotionMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+
+	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+
+		String[] tokens = value.toString().split(" ");
+		String language = tokens[0];
+		String count = tokens[1];
+		context.write(new Text(language), new IntWritable(Integer.parseInt(count)));
+
+	}
+
+}

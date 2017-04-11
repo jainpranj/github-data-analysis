@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Writable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="com.github.sentimentalanalysis.CompositeKeyWritable"/>
+<fullyQualifiedTypeName name="com.github.sentimentalanalysis.EmotionPartitioner"/>
+</qualifiedTypeNameHistroy>
