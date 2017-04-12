@@ -1,32 +1,73 @@
-ActionScript	2
-Arduino	3
-C	65
-C#	19
-C++	61
-Clojure	4
-CoffeeScript	8
-Common Lisp	2
-Coq	1
-D	1
-Emacs Lisp	4
-Erlang	4
-Go	1
-Groovy	2
-HaXe	1
-Haskell	10
-Java	123
-JavaScript	265
-Lua	11
-Matlab	2
-Objective-C	18
-PHP	126
-Perl	25
-Puppet	8
-Python	104
-R	4
-Ruby	156
-Scala	3
-Shell	25
-Vala	1
-Verilog	2
-VimL	8
+ASP	0.0
+ActionScript	0.026086956
+Ada	0.0
+Apex	0.0
+Arduino	0.25
+Assembly	0.0
+AutoHotkey	0.0
+C	0.03313253
+C#	0.031866465
+C++	0.031219512
+Clojure	0.04494382
+CoffeeScript	0.04519774
+ColdFusion	0.0
+Common Lisp	0.0625
+Coq	0.14285715
+D	0.022222223
+DCPU-16 ASM	0.0
+Dart	0.0
+Delphi	0.0
+Eiffel	0.0
+Elixir	0.0
+Emacs Lisp	0.028169014
+Erlang	0.04347826
+F#	0.0
+FORTRAN	0.0
+Factor	0.0
+Go	0.014084507
+Groovy	0.04255319
+HaXe	0.05882353
+Haskell	0.054347824
+Io	0.0
+Java	0.03870387
+JavaScript	0.065275416
+Julia	0.0
+Kotlin	0.0
+Lua	0.09756097
+Matlab	0.032258064
+Nemerle	0.0
+Nimrod	0.0
+OCaml	0.0
+Objective-C	0.036363635
+Objective-J	0.0
+OpenEdge ABL	0.0
+PHP	0.045294944
+Parrot	0.0
+Perl	0.071240105
+PowerShell	0.0
+Powershell	0.0
+Prolog	0.0
+Puppet	0.17021276
+Pure Data	0.0
+Python	0.04032258
+R	0.06557377
+Racket	0.0
+Rebol	0.0
+Ruby	0.054237287
+Rust	0.0
+Scala	0.024242423
+Scheme	0.0
+Scilab	0.0
+Shell	0.03720238
+Smalltalk	0.0
+Standard ML	0.0
+SuperCollider	0.0
+Tcl	0.0
+Turing	0.0
+VHDL	0.0
+Vala	0.16666667
+Verilog	0.10526316
+VimL	0.036585364
+Visual Basic	0.0
+XQuery	0.0
+ooc	0.0

@@ -9,7 +9,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 
-public class GithubSentimentalAnlysisMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+public class GithubSentimentalAnlysisMapper extends Mapper<LongWritable, Text, Text, CompositeKeyWritable> {
 	public static String joyWordsRegex;
 
 
@@ -31,10 +31,13 @@ public class GithubSentimentalAnlysisMapper extends Mapper<LongWritable, Text, T
 	
 			String commitMessage = value.toString().substring(0, value.toString().lastIndexOf(',')).trim();
 			String language = value.toString().substring(value.toString().lastIndexOf(',') + 1).trim();
-
+			CompositeKeyWritable emotionLang=new CompositeKeyWritable();
 			if (commitMessage.matches(joyWordsRegex)) {
-				context.write(new Text(language), one);
+				emotionLang.setEmotionCount(1);
+				
 			}
+			emotionLang.setLanguageCount(1);
+			context.write(new Text(language), emotionLang);
 		}
 
 	}

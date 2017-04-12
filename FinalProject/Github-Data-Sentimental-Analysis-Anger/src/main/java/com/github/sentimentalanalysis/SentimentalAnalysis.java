@@ -7,6 +7,7 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.SortedMapWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -34,9 +35,10 @@ public class SentimentalAnalysis {
 		job.setNumReduceTasks(1);
 
 		// Specify key / value
-
+		job.setMapOutputKeyClass(Text.class);
+		job.setMapOutputValueClass(CompositeKeyWritable.class);
 		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(IntWritable.class);
+		job.setOutputValueClass(FloatWritable.class);
 		// Input
 		FileInputFormat.addInputPath(job, inputPath);
 		// job.setInputFormatClass(KeyValueTextInputFormat.class);

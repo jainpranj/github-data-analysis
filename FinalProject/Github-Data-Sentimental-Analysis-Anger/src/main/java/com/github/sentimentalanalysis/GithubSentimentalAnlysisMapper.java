@@ -8,7 +8,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-public class GithubSentimentalAnlysisMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+public class GithubSentimentalAnlysisMapper extends Mapper<LongWritable, Text, Text, CompositeKeyWritable> {
 	public static String angerWordsRegex;
 
 	public static HashMap<String, String> emotionRegexMap = new HashMap<String, String>();
@@ -29,10 +29,13 @@ public class GithubSentimentalAnlysisMapper extends Mapper<LongWritable, Text, T
 			// value.toString().lastIndexOf(','));
 			String commitMessage = value.toString().substring(0, value.toString().lastIndexOf(',')).trim();
 			String language = value.toString().substring(value.toString().lastIndexOf(',') + 1).trim();
-
+			CompositeKeyWritable emotionLang=new CompositeKeyWritable();
 			if (commitMessage.matches(angerWordsRegex)) {
-				context.write(new Text(language), one);
+				emotionLang.setEmotionCount(1);
+				
 			}
+			emotionLang.setLanguageCount(1);
+			context.write(new Text(language), emotionLang);
 		}
 
 	}

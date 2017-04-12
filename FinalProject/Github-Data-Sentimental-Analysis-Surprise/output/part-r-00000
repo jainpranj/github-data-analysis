@@ -1,19 +1,73 @@
-ActionScript	1
-C	9
-C#	3
-C++	3
-D	1
-Emacs Lisp	1
-Haskell	1
-Java	11
-JavaScript	13
-OCaml	2
-Objective-C	5
-PHP	5
-Perl	6
-Prolog	1
-Python	5
-R	1
-Ruby	11
-Scala	1
-Shell	2
+ASP	0.0
+ActionScript	0.008695652
+Ada	0.0
+Apex	0.0
+Arduino	0.0
+Assembly	0.0
+AutoHotkey	0.0
+C	0.004518072
+C#	0.0045523522
+C++	0.0014634146
+Clojure	0.0
+CoffeeScript	0.0
+ColdFusion	0.0
+Common Lisp	0.0
+Coq	0.0
+D	0.022222223
+DCPU-16 ASM	0.0
+Dart	0.0
+Delphi	0.0
+Eiffel	0.0
+Elixir	0.0
+Emacs Lisp	0.0070422534
+Erlang	0.0
+F#	0.0
+FORTRAN	0.0
+Factor	0.0
+Go	0.0
+Groovy	0.0
+HaXe	0.0
+Haskell	0.0054347827
+Io	0.0
+Java	0.0033003301
+JavaScript	0.0041252123
+Julia	0.0
+Kotlin	0.0
+Lua	0.0
+Matlab	0.0
+Nemerle	0.0
+Nimrod	0.0
+OCaml	0.05263158
+Objective-C	0.01010101
+Objective-J	0.0
+OpenEdge ABL	0.0
+PHP	0.001755618
+Parrot	0.0
+Perl	0.015831135
+PowerShell	0.0
+Powershell	0.0
+Prolog	0.04
+Puppet	0.0
+Pure Data	0.0
+Python	0.0019201229
+R	0.016393442
+Racket	0.0
+Rebol	0.0
+Ruby	0.0040677967
+Rust	0.0
+Scala	0.006060606
+Scheme	0.0
+Scilab	0.0
+Shell	0.0029761905
+Smalltalk	0.0
+Standard ML	0.0
+SuperCollider	0.0
+Tcl	0.0
+Turing	0.0
+VHDL	0.0
+Vala	0.0
+Verilog	0.0
+VimL	0.0
+Visual Basic	0.0
+XQuery	0.0
+ooc	0.0

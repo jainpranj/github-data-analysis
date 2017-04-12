@@ -6,21 +6,25 @@ import java.util.TreeMap;
 
 import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.SortedMapWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.mapreduce.Reducer;
 
-public class GithubSentimentalAnalysisReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
+public class GithubSentimentalAnalysisReducer extends Reducer<Text, CompositeKeyWritable, Text, FloatWritable> {
 
-	public void reduce(Text key, Iterable<IntWritable> values, Context context)
+	public void reduce(Text key, Iterable<CompositeKeyWritable> values, Context context)
 			throws IOException, InterruptedException {
-		int totalCount = 0;
-		for (IntWritable count : values) {
-			totalCount++;
+		float totalLangCount = 0;
+		float totalEmotionCount = 0;
+		for (CompositeKeyWritable emotionLang : values) {
+			totalLangCount=totalLangCount+	emotionLang.getLanguageCount();
+			totalEmotionCount=totalEmotionCount+	emotionLang.getEmotionCount();
 		}
-		context.write(key, new IntWritable(totalCount));
+		float percentage=totalEmotionCount/totalLangCount;
+		context.write(key, new FloatWritable(percentage));
 	}
 
 }

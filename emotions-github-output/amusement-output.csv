@@ -1,0 +1,74 @@
+language	 percentage
+ASP	0.0
+ActionScript	0.034782607
+Ada	0.0
+Apex	0.0
+Arduino	0.083333336
+Assembly	0.033333335
+AutoHotkey	0.0
+C	0.027108435
+C#	0.06676783
+C++	0.04
+Clojure	0.02247191
+CoffeeScript	0.028248588
+ColdFusion	0.0
+Common Lisp	0.0
+Coq	0.0
+D	0.08888889
+DCPU-16 ASM	0.0
+Dart	0.0
+Delphi	0.0
+Eiffel	0.0
+Elixir	0.0
+Emacs Lisp	0.0070422534
+Erlang	0.02173913
+F#	0.0
+FORTRAN	0.0
+Factor	0.0
+Go	0.0
+Groovy	0.0
+HaXe	0.0
+Haskell	0.032608695
+Io	0.0
+Java	0.05490549
+JavaScript	0.041009463
+Julia	0.0
+Kotlin	0.25
+Lua	0.040650405
+Matlab	0.08064516
+Nemerle	0.0
+Nimrod	0.0
+OCaml	0.02631579
+Objective-C	0.030303031
+Objective-J	0.0
+OpenEdge ABL	0.0
+PHP	0.041432586
+Parrot	0.0
+Perl	0.023746701
+PowerShell	0.0
+Powershell	0.0
+Prolog	0.0
+Puppet	0.0
+Pure Data	0.0
+Python	0.03456221
+R	0.016393442
+Racket	0.11111111
+Rebol	0.0
+Ruby	0.086440675
+Rust	0.0
+Scala	0.018181818
+Scheme	0.0
+Scilab	0.0
+Shell	0.04910714
+Smalltalk	0.0
+Standard ML	0.0
+SuperCollider	0.0
+Tcl	0.0
+Turing	0.0
+VHDL	0.09090909
+Vala	0.0
+Verilog	0.05263158
+VimL	0.024390243
+Visual Basic	0.0
+XQuery	0.0
+ooc	0.0
