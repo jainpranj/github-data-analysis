@@ -1,0 +1,47 @@
+SELECT c.country, COUNT(*) pushes, FIRST(c.population) population, 1000*COUNT(*)/FIRST(c.population) ratio_pushes, 10000*COUNT(DISTINCT login)/FIRST(c.population) ratio_unique_login 
+FROM [githubarchive:month.201608] a
+JOIN [fh-bigquery:ghtorrent.users] b  
+# http://ghtorrent.org/faq.html
+ON a.actor.login=b.login
+JOIN (
+  SELECT LOWER(iso) iso, population, country 
+  FROM [gdelt-bq:extra.countryinfo]
+  WHERE population > 300000
+) c   
+# http://download.geonames.org/export/dump/readme.txt 
+ON c.iso=b.country_code
+WHERE country_code != '\\N'
+AND a.type='PushEvent'
+GROUP BY 1
+ORDER BY ratio_unique_login DESC
+LIMIT 300
+
+
+SELECT c.country, COUNT(*) pushes, FIRST(c.population) population, 1000*COUNT(*)/FIRST(c.population) ratio_pushes
+FROM [githubarchive:month.201608] a
+JOIN [fh-bigquery:ghtorrent.users] b  
+# http://ghtorrent.org/faq.html
+ON a.actor.login=b.login
+JOIN (
+  SELECT LOWER(iso) iso, population, country 
+  FROM [gdelt-bq:extra.countryinfo]
+  WHERE population > 300000
+) c  
+# http://download.geonames.org/export/dump/readme.txt 
+ON c.iso=b.country_code
+WHERE country_code != '\\N'
+AND a.type='PushEvent'
+GROUP BY 1
+ORDER BY ratio_pushes DESC
+LIMIT 300
+
+
+SELECT country_code, COUNT(*) pushes,
+FROM [githubarchive:month.201608] a
+JOIN [fh-bigquery:ghtorrent.users] b 
+# http://ghtorrent.org/faq.html
+ON a.actor.login=b.login
+WHERE country_code != '\\N'
+AND a.type='PushEvent'
+GROUP BY 1
+ORDER BY 2 DESC
