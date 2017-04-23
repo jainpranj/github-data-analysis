@@ -1,0 +1,1 @@
+SELECT stars, repo_name FROM [fh-bigquery:public_dump.github_stars_repo] ORDER by stars DESC LIMIT 15000
